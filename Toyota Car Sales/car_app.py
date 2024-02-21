@@ -32,7 +32,7 @@ def main():
     if transmission == 'Manual':
         transmission_Manual= 1
     else:
-        transmission_Manual= 1
+        transmission_Manual= 0
     mileage = st.slider("mileage", 50 , 100000)
     tax = st.slider("tax", 0 , 30000)
     mpg = st.slider("mpg", 0 , 100000)
